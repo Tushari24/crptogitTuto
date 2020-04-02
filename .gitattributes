@@ -1,0 +1,7 @@
+crptotest1 filter=git-crypt diff=git-crypt
+
+*.key filter=git-crypt diff=git-crypt
+
+secretdir/** filter=git-crypt diff=git-crypt
+
+*.txt filter=git-crypt diff=git-crypt
